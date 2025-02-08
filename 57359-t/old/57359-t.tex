@@ -15,11 +15,10 @@
 % Author: John Venn                                                       %
 %                                                                         %
 % Release Date: June 19, 2018 [EBook #57359]                              %
-% Most recently updated: June 11, 2021                         %
 %                                                                         %
 % Language: English                                                       %
 %                                                                         %
-% Character set encoding: UTF-8                                           %
+% Character set encoding: ISO-8859-1                                      %
 %                                                                         %
 % *** START OF THIS PROJECT GUTENBERG EBOOK THE LOGIC OF CHANCE, 3RD EDITION ***
 %                                                                         %
@@ -107,7 +106,7 @@
 \documentclass[12pt,leqno]{book}[2005/09/16]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACKAGES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[utf8]{inputenc}[2006/05/05]
+\usepackage[latin1]{inputenc}[2006/05/05]
 
 \usepackage{ifthen}[2001/05/26]  %% Logical conditionals
 
@@ -315,7 +314,7 @@
   \subsubsection*{\centering\normalfont\small#2}
 }
 
-% \ToCLine[Â§Â§]{SecNo}{Title}
+% \ToCLine[§§]{SecNo}{Title}
 \newcommand{\ToCLine}[3][]{%
   \noindent\small\PadTxt[r]{99\;}{#1\;}\PadTxt[l]{99,999.}{#2}%
   \settowidth{\TmpLen}{99\;99,999.}%
@@ -394,12 +393,12 @@
 }
 
 \newcommand{\Sect}[1]{%
-  \parÂ§\;#1%
+  \par§\;#1%
   \ifthenelse{\boolean{ForPrinting}}{%
     \fancyhead[LO]{\small\textsc{sect}. #1]}%
     \fancyhead[RE]{\small[\textsc{chap}.\ \theChapter}%
   }{% else
-    \fancyhead[L]{\small[\theChapter, Â§\;#1]}%
+    \fancyhead[L]{\small[\theChapter, §\;#1]}%
   }%
 }
 
@@ -473,11 +472,10 @@ Title: The Logic of Chance, 3rd edition
 Author: John Venn
 
 Release Date: June 19, 2018 [EBook #57359]
-Most recently updated: June 11, 2021
 
 Language: English
 
-Character set encoding: UTF-8     
+Character set encoding: ISO-8859-1
 
 *** START OF THIS PROJECT GUTENBERG EBOOK THE LOGIC OF CHANCE, 3RD EDITION ***
 \end{PGtext}
@@ -590,7 +588,7 @@ only, to quote a common but often delusive assurance, will
 Arithmetic' be required to understand these pages, but it is
 not intended that any such knowledge should be acquired by
 the process of reading them. Of the two or three occasions
-on which algebraical formulÃ¦ occur they will not be found to
+on which algebraical formulæ occur they will not be found to
 form any essential part of the text.
 
 The science of Probability occupies at present a somewhat
@@ -982,7 +980,7 @@ general conception and treatment of Probability.
 
 \ToCChap{I.}{THE SERIES OF PROBABILITY.}
 
-\ToCLine[Â§Â§]{1, 2.}{Distinction between the proportional propositions of Probability,
+\ToCLine[§§]{1, 2.}{Distinction between the proportional propositions of Probability,
 and the propositions of Logic.}
 \ToCLine{3, 4.}{The former are best regarded as presenting a series of individuals,}
 \ToCLine{5.}{Which may occur in any order of time,}
@@ -998,7 +996,7 @@ inappreciable.}
 
 \ToCChap{II.}{ARRANGEMENT AND FORMATION OF THE SERIES\@. LAWS OF ERROR.}
 
-\ToCLine[Â§Â§]{1, 2.}{Indication of the nature of a Law of Error or Divergence.}
+\ToCLine[§§]{1, 2.}{Indication of the nature of a Law of Error or Divergence.}
 \ToCLine{3.}{Is there necessarily but one such law,}
 \ToCLine{4.}{Applicable to widely distinct classes of things?}
 \PageSep{xx}
@@ -1017,7 +1015,7 @@ Squares.}
 
 \ToCChap{III.}{ORIGIN OR PROCESS OF CAUSATION OF THE SERIES.}
 
-\ToCLine[Â§]{1.}{The causes consist of (1) `objects,'}
+\ToCLine[§]{1.}{The causes consist of (1) `objects,'}
 \ToCLine{2, 3.}{Which may or may not be distinguishable into natural kinds,}
 \ToCLine{4--6.}{And (2) `agencies.'}
 \ToCLine{7.}{Requisites demanded in the above:}
@@ -1030,9 +1028,9 @@ Squares.}
 
 \ToCChap{IV.}{HOW TO DISCOVER AND PROVE THE SERIES.}
 
-\ToCLine[Â§]{1.}{The data of Probability are established by experience;}
+\ToCLine[§]{1.}{The data of Probability are established by experience;}
 \ToCLine{2.}{Though in practice most problems are solved deductively.}
-\ToCLine{3--7.}{Mechanical instance to show the inadequacy of any Ã  priori proof.}
+\ToCLine{3--7.}{Mechanical instance to show the inadequacy of any à priori proof.}
 \ToCLine{8.}{The Principle of Sufficient Reason inapplicable.}
 \PageSep{xxi}
 \ToCLine{9.}{Evidence of actual experience.}
@@ -1047,7 +1045,7 @@ Doctrine of Combinations.}
 
 \ToCChap{V.}{THE CONCEPTION OF RANDOMNESS.}
 
-\ToCLine[Â§]{1.}{\emph{General Indication.}}
+\ToCLine[§]{1.}{\emph{General Indication.}}
 \ToCLine{2--5.}{\emph{The postulate of ultimate uniform distribution at one stage or
 another.}}
 \ToCLine{6.}{\emph{This area of distribution must be finite:}}
@@ -1066,7 +1064,7 @@ FOUNDATIONS. \textsc{Chh.}\ VI--XIV.}
 
 \ToCChap{VI.}{MEASUREMENT OF BELIEF.}
 
-\ToCLine[Â§Â§]{1, 2.}{Preliminary remarks.}
+\ToCLine[§§]{1, 2.}{Preliminary remarks.}
 \ToCLine{3, 4.}{Are we accurately conscious of gradations of belief?}
 \PageSep{xxii}
 \ToCLine{5.}{Probability only concerned with part of this enquiry.}
@@ -1093,7 +1091,7 @@ in experience.}
 
 \ToCChap{VII.}{THE RULES OF INFERENCE IN PROBABILITY.}
 
-\ToCLine[Â§]{1.}{Nature of these inferences.}
+\ToCLine[§]{1.}{Nature of these inferences.}
 \ToCLine{2.}{Inferences by addition and subtraction.}
 \ToCLine{3.}{Inferences by multiplication and division.}
 \ToCLine{4--6.}{Rule for independent events.}
@@ -1109,7 +1107,7 @@ of belief.}
 
 \ToCChap{VIII.}{THE RULE OF SUCCESSION.}
 
-\ToCLine[Â§]{1.}{Reasons for desiring some such rule:}
+\ToCLine[§]{1.}{Reasons for desiring some such rule:}
 \ToCLine{2.}{Though it could scarcely belong to Probability.}
 \ToCLine{3.}{Distinction between Probability and Induction.}
 \ToCLine{4, 5.}{Impossibility of reducing the various rules of the latter under one
@@ -1122,7 +1120,7 @@ head.}
 
 \ToCChap{IX.}{INDUCTION.}
 
-\ToCLine[Â§Â§]{1--5.}{Statement of the Inductive problem, and origin of the Inductive
+\ToCLine[§§]{1--5.}{Statement of the Inductive problem, and origin of the Inductive
 inference.}
 \ToCLine{6.}{Relation of Probability to Induction.}
 \ToCLine{7--9.}{The two are sometimes merged into one.}
@@ -1142,7 +1140,7 @@ referred.}
 
 \ToCChap{X.}{CHANGE, CAUSATION AND DESIGN.}
 
-\ToCLine[Â§]{1.}{Old Theological objection to Chance.}
+\ToCLine[§]{1.}{Old Theological objection to Chance.}
 \ToCLine{2--4.}{Scientific version of the same.}
 \ToCLine{5.}{Statistics in reference to Free-will.}
 \ToCLine{6--8.}{Inconclusiveness of the common arguments here.}
@@ -1160,7 +1158,7 @@ referred.}
 
 \ToCChap{XI.}{MATERIAL AND FORMAL LOGIC.}
 
-\ToCLine[Â§Â§]{1, 2.}{\emph{Broad distinction between these views;}}
+\ToCLine[§§]{1, 2.}{\emph{Broad distinction between these views;}}
 \ToCLine{2, 3.}{\emph{Difficulty of adhering consistently to the objective view;}}
 \ToCLine{4.}{\emph{Especially in the case of Hypotheses.}}
 \ToCLine{5.}{The doubtful stage of our facts is only occasional in Inductive
@@ -1171,7 +1169,7 @@ Logic.}
 
 \ToCChap{XII.}{CONSEQUENCES OF THE DISTINCTIONS OF THE PREVIOUS CHAPTER.}
 
-\ToCLine[Â§Â§]{1, 2.}{Probability has no relation to time.}
+\ToCLine[§§]{1, 2.}{Probability has no relation to time.}
 \ToCLine{3, 4.}{Butler and Mill on Probability before and after the event.}
 \PageSep{xxv}
 \ToCLine{5.}{Other attempts at explaining the difficulty.}
@@ -1186,7 +1184,7 @@ Logic.}
 
 \ToCChap{XIII.}{ON MODALITY.}
 
-\ToCLine[Â§]{1.}{Various senses of Modality;}
+\ToCLine[§]{1.}{Various senses of Modality;}
 \ToCLine{2.}{Having mostly some relation to Probability.}
 \ToCLine{3.}{Modality must be recognized.}
 \ToCLine{4.}{Sometimes relegated to the predicate,}
@@ -1211,7 +1209,7 @@ Logic.}
 
 \ToCChap{XIV.}{FALLACIES.}
 
-\ToCLine[Â§Â§]{1--3.}{(I\@.) Errors in judging of events after they have happened.}
+\ToCLine[§§]{1--3.}{(I\@.) Errors in judging of events after they have happened.}
 \ToCLine{4--7.}{Very various judgments may be thus involved.}
 \ToCLine{8, 9.}{(II\@.) \emph{Confusion between random and picked selections.}}
 \ToCLine{10, 11.}{(III\@.) Undue limitation of the notion of Probability.}
@@ -1230,7 +1228,7 @@ Logic.}
 
 \ToCChap{XV.}{INSURANCE AND GAMBLING.}
 
-\ToCLine[Â§Â§]{1, 2.}{The certainties and uncertainties of life.}
+\ToCLine[§§]{1, 2.}{The certainties and uncertainties of life.}
 \ToCLine{3--5.}{Insurance a means of diminishing the uncertainties.}
 \ToCLine{6, 7.}{Gambling a means of increasing them.}
 \ToCLine{8, 9.}{Various forms of gambling.}
@@ -1246,7 +1244,7 @@ Logic.}
 
 \ToCChap{XVI.}{APPLICATION OF PROBABILITY TO TESTIMONY.}
 
-\ToCLine[Â§Â§]{1, 2.}{Doubtful applicability of Probability to testimony.}
+\ToCLine[§§]{1, 2.}{Doubtful applicability of Probability to testimony.}
 \ToCLine{3.}{Conditions of such applicability.}
 \ToCLine{4.}{Reasons for the above conditions.}
 \ToCLine{5, 6.}{Are these conditions fulfilled in the case of testimony?}
@@ -1257,7 +1255,7 @@ Logic.}
 
 \ToCChap{XVII.}{CREDIBILITY OF EXTRAORDINARY STORIES.}
 
-\ToCLine[Â§]{1.}{Improbability before and after the event.}
+\ToCLine[§]{1.}{Improbability before and after the event.}
 \ToCLine{2, 3.}{Does the rejection of this lead to the conclusion that the credibility
 of a story is independent of its nature?}
 \ToCLine{4.}{General and special credibility of a witness.}
@@ -1282,7 +1280,7 @@ interference can be postulated.}
 \ToCChap{XVIII.}{ON THE NATURE AND USE OF AN AVERAGE, AND ON THE
 DIFFERENT KINDS OF AVERAGE.}
 
-\ToCLine[Â§]{1.}{\emph{Preliminary rude notion of an average,}}
+\ToCLine[§]{1.}{\emph{Preliminary rude notion of an average,}}
 \ToCLine{2.}{\emph{More precise quantitative notion, yielding}}
 \ToCLine{}{(1) \emph{the Arithmetical Average,}}
 \ToCLine{3.}{(2) \emph{the Geometrical.}}
@@ -1308,14 +1306,14 @@ heads, and under that of}}
 \ToCChap{XIX.}{THE THEORY OF THE AVERAGE AS A MEANS OF APPROXIMATION
 TO THE TRUTH.}
 
-\ToCLine[Â§Â§]{1--4.}{\emph{General indication of the problem: i.e.\ an inverse one requiring the
+\ToCLine[§§]{1--4.}{\emph{General indication of the problem: i.e.\ an inverse one requiring the
 previous consideration of a direct one.}}
 
 \ToCPar{[I\@. \emph{The direct problem:---given the central value and law of
 dispersion of the single errors, to determine those of the
-averages.} Â§Â§\;6--20.]}
+averages.} §§\;6--20.]}
 
-\ToCLine{6.}{(i) \emph{The law of dispersion may be determinable \Foreign{Ã ~priori},}}
+\ToCLine{6.}{(i) \emph{The law of dispersion may be determinable \Foreign{à~priori},}}
 \ToCLine{7.}{(ii) \emph{or experimentally, by statistics.}}
 \ToCLine{8, 9.}{\emph{Thence to determine the modulus of the error curve.}}
 \ToCLine{10--14.}{\emph{Numerical example to illustrate the nature and amount of the contraction
@@ -1327,7 +1325,7 @@ of the modulus of the average-error curve.}}
 
 \ToCPar{[II\@. \emph{The inverse problem:---given but a few of the errors to
 determine their centre and law, and thence to draw the above
-deductions.} Â§Â§\;21--25.]}
+deductions.} §§\;21--25.]}
 
 \ToCLine{22, 23.}{\emph{The actual calculations are the same as before,}}
 \ToCLine{24.}{\emph{With the extra demand that we must determine how probable are the
@@ -1335,7 +1333,7 @@ results.}}
 \ToCLine{25.}{\emph{Summary.}}
 
 \ToCPar{[III\@. \emph{Consideration of the same questions as applied to certain
-peculiar laws of error.} Â§Â§\;26--37.]}
+peculiar laws of error.} §§\;26--37.]}
 
 \ToCLine{26.}{(i) \emph{All errors equally probable.}}
 \ToCLine{27, 28.}{(ii) \emph{Certain peculiar laws of error.}}
@@ -1576,7 +1574,7 @@ ten, it is decidedly unlikely that there should be a difference
 of six between the numbers of heads and tails; that is, that
 \PageSep{7}
 there should be as many as eight heads and therefore as few
-as two tails, or \Foreign{vice versÃ¢}. But take a thousand throws, and
+as two tails, or \Foreign{vice versâ}. But take a thousand throws, and
 it becomes in turn exceedingly likely that there should be
 as much as, or more than, a difference of six between the
 respective numbers. On the other hand the \emph{proportion} of
@@ -1919,7 +1917,7 @@ any of the uniformities afforded by games of chance; these
 latter seem to show no trace of secular fluctuation, however
 long we may continue our examination of them. Criticisms
 will be offered, in the course of the following chapters, upon
-some of the common attempts to prove \Foreign{Ã ~priori} that there
+some of the common attempts to prove \Foreign{à~priori} that there
 must be this fixity in the uniformity in question, but of its
 existence there can scarcely be much doubt. Pence give
 heads and tails about equally often now, as they did when
@@ -2097,7 +2095,7 @@ accordance with this supposition.
 The common form of objection is given in the reply, that
 so far from paying an infinite sum, no sensible man would
 \PageSep{21}
-give anything approaching to~Â£$50$ for such a chance. Probably
+give anything approaching to~£$50$ for such a chance. Probably
 not, because no man would see enough of the series to
 make it worth his while. What most persons form their
 practical opinion upon, is such small portions of the series
@@ -2120,7 +2118,7 @@ them, when we confine ourselves to a \emph{limited} number of
 throws. Begin with three. This yields eight equally likely
 possibilities. In four of these cases the thrower starts with
 tail and therefore loses: in two he gains a single point
-(i.e.~Â£$1$); in one he gains two points, and in one he gains four
+(i.e.~£$1$); in one he gains two points, and in one he gains four
 points. Hence his total gain being eight pounds achieved in
 four different contingencies, his average gain would be two
 pounds.
@@ -2132,7 +2130,7 @@ happens on the average. It will readily be seen that, when
 all the possible cases have been reckoned once, his total gain
 will be (reckoned in pounds),
 \[
-2^{n-2} + 2^{n-3}Â·2 + 2^{n-4}Â·2^{2} + \dots + 2Â·2^{n-3} + 2^{n-2} + 2^{n-1},
+2^{n-2} + 2^{n-3}·2 + 2^{n-4}·2^{2} + \dots + 2·2^{n-3} + 2^{n-2} + 2^{n-1},
 \]
 \PageSep{22}
 viz.\
@@ -2147,11 +2145,11 @@ that the minimum number of different occurrences
 necessary in order to justify the average is that which enables
 each of them to present itself once. A man proposes to stop
 short at a succession of ten heads. Well and good. We tell
-him that his average gain will be~Â£$5$.\ $10$\textit{s}.\ $0$\textit{d}.: but we also
+him that his average gain will be~£$5$.\ $10$\textit{s}.\ $0$\textit{d}.: but we also
 impress upon him that in order to justify this statement he
 must commence to toss at least $1024$ times, for in no less
 number can all the contingencies of gain and loss be exhibited
-and balanced. If he proposes to reach an average gain of~Â£$20$,
+and balanced. If he proposes to reach an average gain of~£$20$,
 he will require to be prepared to go up to $39$~throws,
 To \emph{justify} this payment he must commence to throw $2^{39}$~times,
 %[** TN: British million]
@@ -2236,7 +2234,7 @@ hardly be insisted upon that the interest and significance of
 such investigations as these are almost entirely dependent
 upon the statistics being very extensive. In one or other of
 Quetelet's works on Social Physics\footnote
-  {\Title{Essai de Physique Sociale}, 1869. \Title{AnthropomÃ©trie}, 1870.}
+  {\Title{Essai de Physique Sociale}, 1869. \Title{Anthropométrie}, 1870.}
 will be found a selection
 of measurements of almost every element which the physical
 frame of man can furnish:---his height, his weight, the muscular
@@ -2518,7 +2516,7 @@ Such a plan of rejection
 is however quite unauthorized, for these dwarfs and giants
 are born into the world like their more normally sized
 brethren, and have precisely as much right as any others
-to be included in the formulÃ¦ we draw up.
+to be included in the formulæ we draw up.
 
 Besides the instance of the heights of men, other classes
 \PageSep{31}
@@ -2764,18 +2762,18 @@ the exponential\footnote
   {A definite numerical example of
   this kind of concentration of frequency
   about the mean was given in
-  the note to~Â§\;4. It was of a binomial
+  the note to~§\;4. It was of a binomial
   form, consisting of the successive
   terms of the expansion of $(1 + 1)^{m}$.
   Now it may be shown (Quetelet, \Title{Letters},
-  p.~263; Liagre, \Title{Calcul des ProbabilitÃ©s},
-  Â§\;34) that the expansion of such
+  p.~263; Liagre, \Title{Calcul des Probabilités},
+  §\;34) that the expansion of such
   a binomial, as $m$~becomes indefinitely
   great, approaches as its limit the
   exponential form; that is, if we take
   a number of equidistant ordinates
   proportional respectively to $1$, $m$,
-  $\Dfrac{m(m - 1)}{1Â·2}$~\&c., and connect their vertices,
+  $\Dfrac{m(m - 1)}{1·2}$~\&c., and connect their vertices,
   the figure we obtain approximately
   represents some form of the
   curve $y = Ae^{-hx^{2}}$, and tends to become
@@ -2824,7 +2822,7 @@ the exponential\footnote
   equal number of successes and failures
   but successes and failures in
   the ratio of $1$ to~$4$.}
-law mentioned in~Â§\;5.
+law mentioned in~§\;5.
 
 \Sect{10.} It may be readily admitted from what we know
 about the production of events that something resembling
@@ -2880,7 +2878,7 @@ commonly accepted `Law of Error,' as it is termed.\footnote
   strictness only appropriate in the
   case of one, namely the third, of the
   three classes of phenomena mentioned
-  in~Â§\;4, but by a convenient
+  in~§\;4, but by a convenient
   generalization it is equally applied
   to the other two; so that we term
   the amount of the divergence from
@@ -2987,7 +2985,7 @@ by him and others as to the existence of what he terms a \emph{type}
 in the groups of things in question. This is a not unnatural
 consequence from some of the data and conclusions of the
 last few paragraphs. Refer back to two of the three classes
-of things already mentioned in~Â§\;4. If it really were the case
+of things already mentioned in~§\;4. If it really were the case
 that in arranging in order a series of incorrect observations
 or attempts of our own, and a collection of natural objects
 belonging to some one and the same species or class, we found
@@ -3007,7 +3005,7 @@ her mark more or less in almost every instance.\footnote
   purport, either by direct assertion
   or by implication, of two elaborate
   works by Quetelet, viz.\ his
-  \Title{Physique Sociale} and his \Title{AnthropomÃ©trie}.}
+  \Title{Physique Sociale} and his \Title{Anthropométrie}.}
 
 Suppose we make a long succession of attempts to measure
 accurately the precise height of a man, we should from one
@@ -3035,7 +3033,7 @@ therefore be regarded as the typical man.
 invariable human type to which all individual specimens of
 humanity may be regarded as having been meant to attain,
 but from which they have deviated in one direction or
-another; according to a law of deviation capable of \Foreign{Ã ~priori}
+another; according to a law of deviation capable of \Foreign{à~priori}
 determination, the doctrine is little else than absurd. But
 if we look somewhat closer at the facts of the case, and the
 probable explanation of these facts, we may see our way to
@@ -3136,7 +3134,7 @@ nation is really a highly artificial body, the members of
 \PageSep{46}
 which are subject to a considerable number of local or occasional
 disturbing causes. Amongst Frenchmen were included,
-presumably, Bretons, ProvenÃ§als, Alsatians, and so on,
+presumably, Bretons, Provençals, Alsatians, and so on,
 thus commingling distinctions which, though less than those
 between French and English, regarded as wholes, are very
 far from being insignificant. And to these differences of
@@ -4238,7 +4236,7 @@ and admit of isolated consideration, whilst the
 enormous number of combinations which can be constructed
 out of them causes an enormous consequent multiplicity of
 ways in which the events can possibly happen. Hence, in
-practice, \Foreign{Ã ~priori} determination is often easy, whilst \Foreign{Ã ~posteriori}
+practice, \Foreign{à~priori} determination is often easy, whilst \Foreign{à~posteriori}
 appeal to experience would be not merely tedious but
 utterly impracticable. This, combined with the frequent
 simplicity and attractiveness of such examples when deductively
@@ -4337,7 +4335,7 @@ frequency of occurrence of the events themselves, as here.
 \Sect{4.} When we have got as far as this it can readily be
 shown that an appeal to experience cannot be long evaded.
 For \emph{can} the assertion in question (viz.\ that the throws of the
-penny will occur equally often) be safely made \Foreign{Ã ~priori}?
+penny will occur equally often) be safely made \Foreign{à~priori}?
 Those who consider that it can seem hardly to have fully
 faced the difficulties which meet them. For when we begin
 to enquire seriously whether the penny will really do what
@@ -4418,7 +4416,7 @@ arrangement in which they start cannot but leave its impress
 to some extent upon their final positions. In all such cases,
 \PageSep{81}
 therefore, if we scrutinize our language, we shall find that
-any supposed \Foreign{Ã ~priori} mode of stating a problem is little else
+any supposed \Foreign{à~priori} mode of stating a problem is little else
 than a compendious way of saying, Let means be taken for
 obtaining a given result. Since it is upon this result that
 our inferences ultimately rest, it seems simpler and more
@@ -4503,7 +4501,7 @@ equally often, but it would not prove that they must each
 occur once in four times. It cannot be proved indeed in this
 way that they need ever occur at all.
 
-\Sect{9.} The formula, then, not being demonstrable \Foreign{Ã ~priori},
+\Sect{9.} The formula, then, not being demonstrable \Foreign{à~priori},
 (as might have been concluded,) can it be obtained by experience?
 To a certain extent it can; the present experience
 of mankind in pence and dice seems to show that the smaller
@@ -4548,7 +4546,7 @@ the succession of heads and tails is produced, and we may
 perhaps see reasons to make us still more doubtful.
 
 It has been already pointed out that in calculating probabilities
-\Foreign{Ã ~priori}, as it is called, we are only able to do so by
+\Foreign{à~priori}, as it is called, we are only able to do so by
 introducing restrictions and suppositions which are in reality
 equivalent to assuming the expected results. We use words
 which in strictness mean, Let a given process be performed;
@@ -4654,7 +4652,7 @@ being kept in accordance with the actual series. Experience
 abundantly proves that, between considerable limits, in the
 example in question, there does exist such a correspondence.
 But let no one attempt to enforce our assent to every remote
-deduction that mathematicians can draw from their formulÃ¦.
+deduction that mathematicians can draw from their formulæ.
 When this is attempted the distinction just traced becomes
 prominent and important, and we have to choose our side.
 Either we go over to the mathematics, and so lose all right
@@ -4981,7 +4979,7 @@ however, been too exclusively considered by writers on the
 subject; and conceptions appropriate only to them, and not
 always even to them, have been imported into the other
 class. It is in this way that a general tendency to an excessive
-deductive or \Foreign{Ã ~priori} treatment of the science has
+deductive or \Foreign{à~priori} treatment of the science has
 been encouraged.
 \PageSep{96}
 
@@ -5091,7 +5089,7 @@ applied to the former stage, and in consequence will not in
 general apply to the latter.
 
 For instance: a shot is fired at random from a gun whose
-maximum range (i.e.\ at $45Â°$~elevation) is $3000$ yards: what is
+maximum range (i.e.\ at $45°$~elevation) is $3000$ yards: what is
 the chance that the actual range shall exceed $2000$ yards?
 The ultimately uniform (or random) distribution here is
 commonly assumed to apply to the various directions in
@@ -5458,7 +5456,7 @@ or visible places as projected upon the surface of a
 supposed sphere. Appealing to what alone we can thus
 observe, it is obvious that the arrangement, as a whole, is
 not of the random sort. The Milky Way and the other resolvable
-nebulÃ¦, as they present themselves to us, are as obvious
+nebulæ, as they present themselves to us, are as obvious
 an infraction of such an arrangement as would be the
 occurrence here and there of patches of ground in a \Chg{rain-fall}{rainfall}
 which received a vast number more drops than the spaces
@@ -5792,7 +5790,7 @@ to the right or left will be analogous to the resultant
 difference between the number of heads and tails after a
 great many tosses of a penny. Now the well-known outcome
 of such a number of tosses is that ultimately the
-\emph{proportional} approximation to the \Chg{Ã ~priori}{\Foreign{Ã ~priori}} probability, i.e.\ to
+\emph{proportional} approximation to the \Chg{à~priori}{\Foreign{à~priori}} probability, i.e.\ to
 equality of heads and tails, is more and more nearly carried
 out, but that the \emph{absolute} deflection is more and more widely
 displayed.
@@ -6549,7 +6547,7 @@ feel, as we have felt before when acting in the presence of
 alternatives as nearly balanced as possible. But I can
 neither perceive in my own case, nor feel convinced in that
 of others, that this appeal, in a case which cannot be repeated,\footnote
-  {Except indeed on the principles indicated further on in Â§Â§\;24,~25.}
+  {Except indeed on the principles indicated further on in §§\;24,~25.}
 to a rule acted on and justified in cases which can be
 and are repeated, at all forces us to admit that our state of
 mind is the same in each case.
@@ -6716,7 +6714,7 @@ believed in its occurrence, when in fact it did not occur at all.
 The same difficulty will occur in every case in which we
 attempt to justify our state of partial belief in a single contingent
 event. Let us take another example, slightly differing
-from the last. A man is to receive~Â£$1$ if a die gives six,
+from the last. A man is to receive~£$1$ if a die gives six,
 \PageSep{142}
 to pay~$1$\textit{s}.\ if it gives any other number. It will generally be
 admitted that he ought to give $2$\textit{s}.\ $6$\textit{d}.\ for the chance, and
@@ -6769,7 +6767,7 @@ for this? If we appeal to an example again, and analyse it
 somewhat more closely, we may yet find our way to some
 satisfactory explanation.
 
-In our previous analysis~(Â§\;18) we found it sufficient to stop
+In our previous analysis~(§\;18) we found it sufficient to stop
 at an early stage, and to give as the justification of our belief
 the fact of the proposition being true. Stopping however at
 that stage, we have found this explanation fail altogether to
@@ -6822,8 +6820,8 @@ ready to stake our conduct upon what comes to pass in
 the long run. When we are considering the result of a large
 number of throws, we are ready to act upon the supposition
 that head comes every other time. If e.g.\ we are betting
-upon it, we shall not object to paying~Â£$1$ every time that
-head comes, on condition of receiving~Â£$1$ every time that
+upon it, we shall not object to paying~£$1$ every time that
+head comes, on condition of receiving~£$1$ every time that
 head does not come. This is nothing else than the \emph{translation},
 as we may call it, into practice, of our belief that head
 and tail occur equally often.
@@ -6832,10 +6830,10 @@ and tail occur equally often.
 Now it will be obvious, on a moment's consideration, that
 our conduct is capable of being slightly varied: of being
 varied, that is, in form, whilst it remains identical in respect
-of its results. It is clear that to pay~Â£$1$ every time we lose,
-and to get~Â£$1$ every time we gain, comes to precisely the same
+of its results. It is clear that to pay~£$1$ every time we lose,
+and to get~£$1$ every time we gain, comes to precisely the same
 thing, in the case under consideration, as to pay ten shillings
-every time without exception, and to receive~Â£$1$ every time
+every time without exception, and to receive~£$1$ every time
 that head occurs. It is so, because heads occur, on the
 average, every other time. In the long run the two results
 coincide; but there is a marked difference between the two
@@ -6947,7 +6945,7 @@ out of these acts of his, though each is in itself a single event
 which he may never intend to repeat. His conduct, and therefore
 his belief, measured by the result in each individual
 %[** TN: The vast majority of instances are "shown"]
-instance, will not be justified, but the reverse, as \Chg{shewn}{shown} in~Â§\;19.
+instance, will not be justified, but the reverse, as \Chg{shewn}{shown} in~§\;19.
 Could he indeed repeat each kind of action often
 enough it would be justified; but from this, by the conditions
 of life, he is debarred. Now it is perfectly conceivable that
@@ -7008,9 +7006,9 @@ It is quite true that I have only the opportunity of dying
 once myself, but I am a member of a class in which deaths
 occur with frequency, and I form my opinion upon evidence
 drawn from that class. If, for example, I had insured my
-life for Â£$1000$, I should feel a certain propriety in demanding
+life for £$1000$, I should feel a certain propriety in demanding
 \PageSep{150}
-Â£$7000$ in case the office declared that it would only pay in
+£$7000$ in case the office declared that it would only pay in
 the event of my dying on a Sunday. \emph{I}, indeed, for my own
 private part, might not find the arrangement an equitable
 one; but mankind at large, in case they acted on such a
@@ -7120,7 +7118,7 @@ attempts described above; but when it is attempted, as is
 often the case, to import other sentiments besides pure belief,
 and to find a justification for them also in the results of our
 science, the confusion becomes far worse. The following
-extract from Archbishop Thomson's \Title{Laws of Thought} (Â§\;122,
+extract from Archbishop Thomson's \Title{Laws of Thought} (§\;122,
 \index{Thomson, W.}%
 Ed.~\No{II}.)\ will show what kind of applications of the science are
 contemplated here: ``In applying the doctrine of chances to
@@ -7201,7 +7199,7 @@ fee I pay for each of these sets, I shall be sure to make it up
 in time. The mathematical expression of this is, that I
 ought always to pay an infinite sum. To this the objection
 is opposed, that no sensible man would think of advancing
-even a large finite sum, say~Â£$50$. Certainly he would not;
+even a large finite sum, say~£$50$. Certainly he would not;
 but why? Because neither he nor those who are to pay
 him would be likely to live long enough for him to obtain
 throws good enough to remunerate him for one-tenth of his
@@ -7547,7 +7545,7 @@ the fourth chapter.
 Here becomes apparent the full importance of the distinction
 so frequently insisted on, between the actual irregular
 series before us and the substituted one of calculation, and
-the meaning of the assertion (Ch.~\No{I}.\ Â§\;13), that it was in the
+the meaning of the assertion (Ch.~\No{I}.\ §\;13), that it was in the
 case of the latter only that strict scientific inferences could
 be made. For how can we have a `limit' in the case of
 those series which ultimately exhibit irregular fluctuations?
@@ -7733,7 +7731,7 @@ of `one or other of two or more events happening,' or of `the
 same event happening in one or other of two or more ways.'
 But no confusion need arise on this ground; either way of
 speaking is legitimate, the difference being merely verbal,
-and depending (as was shown in the first chapter,~Â§\;8) upon
+and depending (as was shown in the first chapter,~§\;8) upon
 whether the distinctions between the `ways' are or are not
 too deep and numerous to entitle the event to be conventionally
 regarded as the same.
@@ -7907,7 +7905,7 @@ that the events are independent.
 
 The validity of this last claim has already been discussed
 in the first chapter; it is only another of the attempts to
-construct \Foreign{Ã ~priori} the series which experience will present to
+construct \Foreign{à~priori} the series which experience will present to
 us, and one for which no such strong defence can be made as
 for the equality of heads and tails in the throws of a penny.
 But the meaning to be assigned to the `independence' of the
@@ -7931,9 +7929,9 @@ be so understood.
 \Sect{7.} The above, then, being the fundamental rules of
 \PageSep{176}
 inference in probability, the question at once arises, What is
-their relation to the great body of formulÃ¦ which are made
+their relation to the great body of formulæ which are made
 use of in treatises upon the science, and in practical applications
-of it? The reply would be that these formulÃ¦, in so
+of it? The reply would be that these formulæ, in so
 far as they properly belong to the science, are nothing else
 in reality than applications of the above fundamental rules.
 \index{Rules!Inductive and Deductive}%
@@ -8044,7 +8042,7 @@ it in this latter form.
 
 \Sect{9.} It has been already stated that the only fundamental
 rules of inference in Probability are the two described
-in Â§Â§\;2,~3, but there are of course abundance of derivative
+in §§\;2,~3, but there are of course abundance of derivative
 rules, the nature and use of which are best obtained from the
 study of any manual upon the subject. One class of these
 derivative rules, however, is sufficiently distinct in respect of
@@ -8062,7 +8060,7 @@ which results from the event in favour of any set of circumstances
 under which the same might have happened.''\footnote
   {\Title{Essay on Probabilities}, p.~53. I
   have been reminded that in his article
-  on Probability in the \Title{EncyclopÃ¦dia
+  on Probability in the \Title{Encyclopædia
   Metropolitana} he has stated
   that such rules involve no new principle.}
 The
@@ -8153,7 +8151,7 @@ should be objected that it is difficult to prove that they will
 do so, it does not seem an unfair demand to say that the balls
 are to be `well-mixed' or `fairly distributed,' or to introduce
 any of the other conditions by which, under the semblance of
-judging \Foreign{Ã ~priori}, we take care to secure our prospect of a
+judging \Foreign{à~priori}, we take care to secure our prospect of a
 \PageSep{182}
 series of the desired kind. But we cannot say the same in
 the case of the second example.
@@ -8250,7 +8248,7 @@ random from a box containing equal numbers of black and
 white balls, the supposition in Mr Whitworth's example is
 the most reasonable; but in the absence of any such information
 as this we are entirely in the dark, and the supposition
-made in~Â§\;12 is neither more nor less trustworthy and
+made in~§\;12 is neither more nor less trustworthy and
 reasonable than many others, though it doubtless possesses
 the merit of superior simplicity.\footnote
   {Opinions differ about the defence
@@ -8261,7 +8259,7 @@ the merit of superior simplicity.\footnote
   hypothesis. Others regard it as a
   sort of mean hypothesis.}
 If the reader will recur to
-Ch.~\No{V}.\ Â§Â§\;4,~5, he will find this particular difficulty fully
+Ch.~\No{V}.\ §§\;4,~5, he will find this particular difficulty fully
 explained. Everybody practically admits that a certain
 characteristic arrangement or distribution has to be introduced
 at some prior stage; and that, as soon as this stage
@@ -8378,7 +8376,7 @@ numerical solution at all.
 Of course the inevitable assumption has to be made here
 about the equal prevalence of the different possible kinds of
 bag,---or, as the supporters of the justice of the calculation
-would put it, of the obligation to assume the equal \Foreign{Ã ~priori}
+would put it, of the obligation to assume the equal \Foreign{à~priori}
 likelihood of each kind,---but I think that in this particular
 example the arbitrariness of the assumption is less than
 usual. This is because the problem discusses simply a
@@ -8524,14 +8522,14 @@ because it has already risen ten times, might he not also ask
 for a rule which should tell him how firm should be his belief
 of an event which rests upon a ten years' recollection?\footnote
   {John Craig, in his often named
-  work, \Title{TheologiÃ¦ ChristianÃ¦ Principia
+  work, \Title{Theologiæ Christianæ Principia
   Mathematica} (Lond.\ 1699) attempted
   something in this direction
   when he proposed to solve such
   problems as:---Quando evanescet probabilitas
-  cujusvis HistoriÃ¦, cujus subjectum
-  est transiens, vivÃ¢ tantum
-  voce transmissÃ¦, determinare.}
+  cujusvis Historiæ, cujus subjectum
+  est transiens, vivâ tantum
+  voce transmissæ, determinare.}
 The
 infractions of a rule of this latter kind could scarcely be more
 numerous and extensive, as we shall see presently, than those
@@ -8585,7 +8583,7 @@ this liability. The step from the statement `all men have
 died in a certain proportion' to the inference `they will continue
 to die in that proportion' is so slight a step that it is
 unnoticed, and the diminution of conviction that should
-accompany it is unsuspected. In what are called \Foreign{Ã ~priori}
+accompany it is unsuspected. In what are called \Foreign{à~priori}
 examples the step is still slighter. We feel so certain about
 the permanence of the laws of mechanics, that few people
 would think of regarding it as an inference when they
@@ -8679,7 +8677,7 @@ by two.''
 
 \Sect{7.} It will be instructive to point out the origin of
 this rule; if only to remind the reader of the necessity of
-keeping mathematical formulÃ¦ to their proper province,
+keeping mathematical formulæ to their proper province,
 and to show what astonishing conclusions are apt to
 be accepted on the supposed warrant of mathematics.
 Revert then to the example of Inverse Probability on \PageRef{182}.
@@ -8729,7 +8727,7 @@ carry a flag.
 \Sect{8.} It is hard to take such a rule as this seriously, for
 there does not seem to be even that moderate confirmation
 of it which we shall find to hold good in the case of the
-application of abstract formulÃ¦ to the estimation of the
+application of abstract formulæ to the estimation of the
 evidence of witnesses. If however its validity is to be discussed
 there appear to be two very distinct lines of enquiry
 along which we may be led.
@@ -8835,7 +8833,7 @@ seven.\footnote
   account of the researches of Herr
   Ebbinghaus as described in his work
 \index{Ebbinghaus}%
-  \Title{Ueber das GedÃ¤chtniss}.}
+  \Title{Ueber das Gedächtniss}.}
 \PageSep{200}
 
 Now this case furnishes a very close parallel to our
@@ -8867,7 +8865,7 @@ which I can hardly conceive it possible that we should ever
 be reduced. However remote or exceptional may be the
 phenomenon selected we may yet bring it into relation with
 some accepted generalizations and thus draw our conclusions
-from these rather than from purely \Foreign{Ã ~priori} considerations.
+from these rather than from purely \Foreign{à~priori} considerations.
 
 \Sect{10.} Since then past acquisitions cannot be laid aside
 or allowed for, the only remaining resource would be to
@@ -8986,7 +8984,7 @@ enquiry.\footnote
   with a very striking digression
   in Buffon's Natural History (\Title{Natural
 \index{Buffon}%
-  Hist.\ of Man}, Â§\;\No{VIII}.), in which he
+  Hist.\ of Man}, §\;\No{VIII}.), in which he
   supposes the first man in full possession
   of his faculties, but with all
   his experience to gain, and speculates
@@ -9021,7 +9019,7 @@ another, or excluded from it, as the case may be.
 the possibility of a wide extension of his information.
 Experience itself would soon detect that events were connected
 together in a regular way; he would ascertain that
-there are `laws of nature.' Coming with no \Foreign{Ã ~priori} necessity
+there are `laws of nature.' Coming with no \Foreign{à~priori} necessity
 of believing in them, he would soon find that as a matter
 \PageSep{206}
 \index{Law!of causation}%
@@ -9120,7 +9118,7 @@ distinct that they cannot possibly be harmonized into
 a single consistent system.
 
 The opinion therefore according to which certain Inductive
-formulÃ¦ are regarded as composing a portion of
+formulæ are regarded as composing a portion of
 Probability, and which finds utterance in the Rule of Succession
 criticised in our last chapter, cannot, I think, be
 maintained. It would be more correct to say, as stated
@@ -10545,7 +10543,7 @@ all the requirements of such an arrangement.\footnote
   I do not quite understand what this
   means. If such a question were
   asked in relation to any unusual
-  divergence from the \Foreign{Ã ~priori} chance
+  divergence from the \Foreign{à~priori} chance
   in a case of throwing dice, say, we
   should probably substitute for it the
   following, as being more appropriate
@@ -10592,7 +10590,7 @@ all the requirements of such an arrangement.\footnote
   here to compare the digits in~$\pi$ with
   those within the `period' of a circulating
   decimal of very long period.
-  That of $1 Ã· 7699$, which yields the
+  That of $1 ÷ 7699$, which yields the
   full period of $7698$ figures, was calculated
   some years ago by two Cambridge
   graduates (Mr Lunn and Mr
@@ -10774,7 +10772,7 @@ that one has been selected which would most nearly yield
 the ratio of the radius to the circumference of a circle.
 
 The remaining consideration would be the relative frequency
-of the `design' alternative,---what is called its \Foreign{Ã ~priori}
+of the `design' alternative,---what is called its \Foreign{à~priori}
 probability,---that is, the relative frequency with
 which such builders can be supposed to have aimed at that
 ratio; with the obvious implied assumption that if they did
@@ -11059,9 +11057,9 @@ It is all that we can claim from a chance arrangement.\footnote
   statistical results, as Arbuthnott did,
   and as we should do if we were examining
   the tosses of a penny. If
-  the remarkable theory of Dr DÃ¼sing
-\index{DÃ¼sing}%
-  (\Title{Die Regulierung des Geschlechts-verhÃ¤ltnisses\dots}
+  the remarkable theory of Dr Düsing
+\index{Düsing}%
+  (\Title{Die Regulierung des Geschlechts-verhältnisses\dots}
   Jena, 1884) be confirmed,
   the matter would assume
   a somewhat different aspect. He attempts
@@ -11208,7 +11206,7 @@ stars.\footnote
   {Professor Forbes in the paper
 \index{Forbes, J.~D.}%
   in the Philosophical Magazine already
-  referred to (Ch.~\No{VII}.\ Â§\;18) gave
+  referred to (Ch.~\No{VII}.\ §\;18) gave
   several diagrams to show what were
   the actual arrangements of a random
   distribution. He scattered peas over
@@ -11917,7 +11915,7 @@ says, ``There is a very strong presumption against common
 speculative truths, and against the most ordinary facts, before
 the proof of them; which yet is overcome by almost any
 proof. There is a presumption of millions to one against the
-story of CÃ¦sar, or of any other man. For, suppose a number
+story of Cæsar, or of any other man. For, suppose a number
 of common facts so and so circumstanced, of which one had
 no kind of proof, should happen to come into one's thoughts,
 every one would without any possible doubt conclude them
@@ -11972,7 +11970,7 @@ incredibility; that it multiplied, rather than merely added
 to, the difficulties and objections in the way of accepting
 the account.
 
-Mill's remarks (\Title{Logic}, Bk.~\No{III}.\ ch.~\No{XXV}.\ Â§\;4) are of a different
+Mill's remarks (\Title{Logic}, Bk.~\No{III}.\ ch.~\No{XXV}.\ §\;4) are of a different
 \index{Mill, J.~S.}%
 character. Discussing the grounds of disbelief he
 speaks of people making the mistake of ``overlooking the
@@ -12039,7 +12037,7 @@ witnesses.
 
 \Sect{6.} Take Butler's instance first. In the `presumption
 before the proof' we have represented to us a man thinking
-of the story of CÃ¦sar, that is, making a guess about certain
+of the story of Cæsar, that is, making a guess about certain
 historical events without any definite grounds for it, and
 then speculating as to what value is to be attached to the
 probability of its truth. Such a guess is of course, as he
@@ -12252,7 +12250,7 @@ It is not of course attempted in these remarks to justify
 our surprise in every case in which it exists. Different
 persons might be differently affected in the cases supposed,
 and the examples are therefore given mainly for illustration.
-Still on principles already discussed (Ch.~\No{VI}.\ Â§\;32) we might
+Still on principles already discussed (Ch.~\No{VI}.\ §\;32) we might
 expect to find something like a general justification of the
 amount of surprise.
 
@@ -12263,7 +12261,7 @@ the following form,---`You have no right to be surprised, for
 nothing remarkable has really occurred. If this particular
 thing had not happened something equally improbable
 must. If the shot had not hit you or your friend, it must
-have hit some one else who was \Foreign{Ã ~priori} as unlikely to be
+have hit some one else who was \Foreign{à~priori} as unlikely to be
 hit.'
 
 For one thing this answer does not explain the fact
@@ -12561,7 +12559,7 @@ for what is troublesome elsewhere, the predicate.\footnote
   of some statements in a very confused
   passage in Whately's \Title{Logic}
 \index{Whately}%
-  (Bk.~\Chg{II}{\No{II}}., ch.~\No{IV}.\ Â§\;1). ``A modal
+  (Bk.~\Chg{II}{\No{II}}., ch.~\No{IV}.\ §\;1). ``A modal
   proposition may be stated as a pure
   one by attaching the mode to one of
   the terms, and the proposition will
@@ -12609,7 +12607,7 @@ Has not another so-called modality been thus got rid of?\footnote
   in which the modification affected
   the real conjunction of the predicate
   with the subject. (Keckermann,
-  \Title{Systema LogicÃ¦}, Lib.~\No{II}.\ ch.~3.) It
+  \Title{Systema Logicæ}, Lib.~\No{II}.\ ch.~3.) It
   was, I believe, a common scholastic
   distinction.
 
@@ -12648,7 +12646,7 @@ by arsenic are probably mortal'? If the analogy with
 ordinary pure propositions is to hold good, it must be a
 predicate referring to the \emph{whole} of the subject, for the subject
 is distributed. But then we are at once launched into
-the difficulties discussed in a former chapter (Ch.~\No{VI}.\ Â§Â§\;19--25),
+the difficulties discussed in a former chapter (Ch.~\No{VI}.\ §§\;19--25),
 when we attempt to justify or verify the application of
 the predicate. We have to enquire (at least on the view
 adopted in this work) whether the application of the predicate
@@ -12797,7 +12795,7 @@ this rough expedient will answer well enough. It is,
 I apprehend, the process which passes through the minds of
 most persons in such cases, in so far as they reason consciously.
 They would, presumably, in such an example as that previously
-given~(Â§\;4), proceed as if the premises that `those
+given~(§\;4), proceed as if the premises that `those
 who take arsenic will die,' and that `the man in question
 has taken it,' were quite true, instead of being only probably
 true, and they would consequently draw the conclusion that
@@ -12942,7 +12940,7 @@ be detected.\footnote
   affections of certainty and necessity,
   says, ``certitudo ad cognitionem
   spectat: necessitas vero est in re''
-  (\Title{Disputationes;} Disp.~\No{XIII}., QuÃ¦st.~\No{XII}.).}
+  (\Title{Disputationes;} Disp.~\No{XIII}., Quæst.~\No{XII}.).}
 The result of this appears in their treatment
 of modality. This always had some reference to the subjective
 side of the proposition, viz.\ in this case to the nature
@@ -12979,7 +12977,7 @@ that, therefore, the pure logician had better not meddle with
 them.\footnote
   {It may be remarked that Whately
 \index{Whately}%
-  (\Title{Logic}, Bk.~\No{II}.\ ch.~\No{II}.\ Â§\;2) speaks
+  (\Title{Logic}, Bk.~\No{II}.\ ch.~\No{II}.\ §\;2) speaks
   of necessary, impossible and contingent
   matter, without any apparent
   suspicion that they belong entirely
@@ -13027,7 +13025,7 @@ have proved, as De~Morgan has remarked,\footnote
   {\Title{Formal Logic}, p.~233.}
 of considerable
 \index{De Morgan}%
-service in mediÃ¦val times. As he says, people were much
+service in mediæval times. As he says, people were much
 more frequently required to decide in one way or the other
 upon a single testimony, without there being a sufficiency of
 specific knowledge to test the statements made. The old
@@ -13035,7 +13033,7 @@ logician ``did not know but that any day of the week might
 bring from Cathay or Tartary an account of men who ran on
 \PageSep{309}
 four wheels of flesh and blood, or grew planted in the ground,
-like Polydorus in the Ã†neid, as well evidenced as a great
+like Polydorus in the Æneid, as well evidenced as a great
 many nearly as marvellous stories.'' Hence, in default of
 better inductions, it might have been convenient to make
 rough classifications of the facts which were and which were
@@ -13068,7 +13066,7 @@ make any important change in the way of regarding them.\footnote
   subject nearly all the most important
   are referred to in one passage
   (\Title{Philosophia Rationalis sive Logica},
-  Â§\;593).
+  §\;593).
 
   Lambert stands quite apart. In
 \index{Lambert}%
@@ -13266,7 +13264,7 @@ they had to aim at; and, though it cannot be said that their
 attempts have been really successful, these are at any rate a
 decided improvement upon those of their predecessors. Dr
 Thomson,\footnote
-  {\Title{Laws of Thought}, Â§\;118.}
+  {\Title{Laws of Thought}, §\;118.}
 for instance, gives a nine-fold division. He says
 \index{Thomson, W.}%
 that, arranging the degrees of modality in an ascending
@@ -13407,7 +13405,7 @@ have remarked, continuous; but considering the enormous
 importance of accurate terminology, and of recognizing
 numerical distinctions wherever possible, it would be a real
 advance if any agreement could be arrived at with regard to
-the use of modal expressions. We have already noticed (\Chg{ch}{Ch}.~\No{II}.\ Â§\;16)
+the use of modal expressions. We have already noticed (\Chg{ch}{Ch}.~\No{II}.\ §\;16)
 some suggestions by Mr Galton as to the possibility
 of a natural system of classification, resting upon the regularity
 with which most kinds of magnitudes tend to group
@@ -13512,25 +13510,25 @@ might be that the inferences involved would be of a similar
 character.\footnote
   {``Nam in hoc etiam differt demonstratio,
   sen demonstrativa argumentatio,
-  Ã ~probabili, quia in illÃ¢
-  tam conclusio quam prÃ¦missÃ¦ necessariÃ¦
+  à~probabili, quia in illâ
+  tam conclusio quam præmissæ necessariæ
   sunt; in probabili autem argumentatione
   sicut conclusio ut probabilis
-  infertur ita prÃ¦missÃ¦ ut probabiles
+  infertur ita præmissæ ut probabiles
   afferuntur'' (Crackanthorpe,
 \index{Crackanthorpe}%
   Bk.~\No{V}., Ch.~1); almost the words with
   which De~Morgan distinguishes between
   logic and probability in a
-  passage already cited (see Ch.~\No{VI}.~Â§\;3).
+  passage already cited (see Ch.~\No{VI}.~§\;3).
 
   Perhaps it was a development
   of some such view as this that Leibnitz
 \index{Leibnitz}%
   looked forward to. ``J'ai dit plus d'une
-  fois qu'il faudrait une nouvelle espÃ¨ce
-  de Logique, qui traiteroit des degrÃ©s
-  de ProbabilitÃ©, puisqu'Aristote dans
+  fois qu'il faudrait une nouvelle espèce
+  de Logique, qui traiteroit des degrés
+  de Probabilité, puisqu'Aristote dans
   ses Topiques n'a rien moins fait que
   cela'' (\Title{Nouveaux essais}, Lib.~\No{IV}.\ ch.~\No{XVI}).
   It is possible, indeed, that
@@ -13578,7 +13576,7 @@ of thirteen different `loci'\footnote
   probabilis; et in hoc
   a Demonstratione differt, quia Demonstrator
   utitur solummodo quatuor
-  Locis eisque necessariis\dots. PrÃ¦ter
+  Locis eisque necessariis\dots. Præter
   hos autem, ex quibus quoque
   probabiliter arguere licet, sunt multo
   plures Loci arguendi probabiliter;
@@ -13649,8 +13647,8 @@ the degree of its cogency. This, I understand, was the case
 in the Roman law, and in some of the continental systems of
 jurisprudence which took their rise from the Roman law.
 ``The direct evidence of so many witnesses was \Foreign{plena probatio}.
-Then came \Foreign{minus plena probatio}, then \Foreign{semiplenÃ¢
-major} and \Foreign{semiplenÃ¢ minor}; and by adding together a
+Then came \Foreign{minus plena probatio}, then \Foreign{semiplenâ
+major} and \Foreign{semiplenâ minor}; and by adding together a
 certain number of half-proofs---for instance, by the production
 of a tradesman's account-books, \emph{plus} his supplementary
 oath---full proof might be made out. It was on
@@ -13686,11 +13684,11 @@ the metaphysicians term apodeictic,\footnote
   gesetzliche Strafe vollzogen werden,
   bevor er nicht selbst das Verbrechen
   eingestanden. Denn wenn auch alle
-  Zeugnisse und die Ã¼brigen Anzeigen
-  wider ihn wÃ¤ren, so bleibt doch das
-  Gegentheil immer mÃ¶glich'' (Krug,
+  Zeugnisse und die übrigen Anzeigen
+  wider ihn wären, so bleibt doch das
+  Gegentheil immer möglich'' (Krug,
 \index{Krug}%
-  \Title{Denklehre}, Â§\;131).}
+  \Title{Denklehre}, §\;131).}
 for that can seldom or
 never be secured in practical affairs, but such a degree of
 conviction, short of this, as every reasonable person will feel
@@ -13950,7 +13948,7 @@ Quetelet's \Title{Physique Sociale} (Vol.~\No{I}.\ p.~184, note). According
 to the authorities which he there quotes it would seem that
 in about one birth in~$5500$ the mother was of the age of $50$
 or upwards. This does not quite assign the degree of what
-may be called the \Chg{Ã ~priori}{\Foreign{Ã ~priori}} chance against the occurrence of a
+may be called the \Chg{à~priori}{\Foreign{à~priori}} chance against the occurrence of a
 birth at that age, because the fact of having commenced a
 family at an early age represents some diminution of the
 probability of continuing it into later life. But it serves to
@@ -14026,7 +14024,7 @@ in other matters. We judge of events on a similar
 principle, feeling and expressing surprise in an equally unreasonable
 way, and deciding as to their occurrence on
 grounds which are really merely a subsequent adjunct of our
-own. Butler's remarks about `the story of CÃ¦sar,' discussed
+own. Butler's remarks about `the story of Cæsar,' discussed
 \index{Butler}%
 already in the twelfth chapter, are of this character. He
 selects a series of events from history, and then imagines a
@@ -14054,7 +14052,7 @@ difficulty in choosing the appropriate class. Now suppose
 we were contemplating such an event as the throwing of
 sixes with a pair of dice four times running. Such a throw
 would be termed a very unlikely event, as the odds against
-its happening would be $36 Ã— 36 Ã— 36 Ã— 36 - 1$ to~$1$ or $1679615$
+its happening would be $36 × 36 × 36 × 36 - 1$ to~$1$ or $1679615$
 to~$1$. The meaning of these phrases, as has been abundantly
 pointed out, is simply that the event in question occurs very
 rarely; that, stated with numerical accuracy, it occurs once in
@@ -14209,9 +14207,9 @@ remarkable in this departure from the mean, and the
 answer depends upon whether we suppose that we are referring
 to a predetermined digit, or to whatever digit of the
 ten happens to be most above or below the average. Or,
-take the case raised by Cournot (\Title{Exposition de la ThÃ©orie
+take the case raised by Cournot (\Title{Exposition de la Théorie
 \index{Cournot}%
-des Chances}, Â§Â§\;102,~114), that a certain deviation from the
+des Chances}, §§\;102,~114), that a certain deviation from the
 mean in the case of Departmental returns of the proportion
 between male and female births is significant and indicative
 of a difference in kind, provided that we select at random a
@@ -14561,9 +14559,9 @@ merit of most ingeniously disguising the actual process.
 \Sect{17.} The meaning of the remark just made will be
 better seen by a comparison with the following case. It has
 been attempted\footnote
-  {As by \Chg{Prevost}{PrÃ©vost} in the \Title{BibliothÃ¨que
-\index{PrÃ©vost}%
-  Universelle de GenÃ¨ve}, Oct.\ 1829.
+  {As by \Chg{Prevost}{Prévost} in the \Title{Bibliothèque
+\index{Prévost}%
+  Universelle de Genève}, Oct.\ 1829.
   The explanation is noted, and apparently
   accepted, by Quetelet (\Title{Physique
 \index{Quetelet}%
@@ -14711,7 +14709,7 @@ from the mathematician's point of view.
 
 The principal of these is perhaps Buffon. He has arrived
 \index{Buffon}%
-at the estimate (\Title{ArithmÃ©tique Morale} Â§\;\No{VIII}.)\ that this
+at the estimate (\Title{Arithmétique Morale} §\;\No{VIII}.)\ that this
 practical zero is equivalent to a chance of $\frac{1}{10,000}$. The
 grounds for selecting this fraction are found in the fact that,
 according to the tables of mortality accessible to him, it
@@ -15159,7 +15157,7 @@ have observed it rain on ten successive days. $A$~and $B$ conclude
 respectively for and against rain on the eleventh day;
 $C$~maintains that the past rain affords no data whatever for
 an opinion. Which is right? We really cannot determine
-\Foreign{Ã ~priori}. An appeal must be made to direct observation, or
+\Foreign{à~priori}. An appeal must be made to direct observation, or
 means must be found for deciding on independent grounds
 to which class we are to refer the instance. If, for example,
 it were known that every country produces its own rain, we
@@ -15176,7 +15174,7 @@ one of these seasons, and that therefore the next day would
 probably resemble the preceding ten.
 
 Since then all these forms of such an Inductive rule are
-possible, and we have often no \Foreign{Ã ~priori} grounds for preferring
+possible, and we have often no \Foreign{à~priori} grounds for preferring
 one to another, it would seem to be unreasonable to attempt
 to establish any universal formula of anticipation. All that
 we can do is to ascertain what are the circumstances under
@@ -15777,7 +15775,7 @@ he dies late he is a loser.\footnote
   the principle of a wager in every
   transaction in which the results of
   a future event are to bring gain or
-  loss.'' \Title{Penny CyclopÃ¦dia}, under the
+  loss.'' \Title{Penny Cyclopædia}, under the
   head of \Title{Wager}.}
 Here, too, though the expression
 \PageSep{380}
@@ -15812,7 +15810,7 @@ being the common stake-holder, and receiving a heavy commission
 for its superintendence, this commission being naturally
 its sole motive for encouraging such a transaction. It is
 recorded of one of the French Tontines\footnote
-  {\Title{EncyclopÃ©die Methodique}, under the head of \Chg{Tontines}{\Title{Tontines}}.}
+  {\Title{Encyclopédie Methodique}, under the head of \Chg{Tontines}{\Title{Tontines}}.}
 that a widow of~$97$
 was left, as the last survivor, to receive an annuity of $73,500$
 livres during the rest of the life which she could manage to
@@ -15895,7 +15893,7 @@ Now if the happiness which is
 yielded by wealth were always in direct proportion to its
 amount, it is not easy to see why insurance should be advocated
 or gambling condemned. In the case of the latter this
-is obvious enough. I have lost~Â£$50$, say, but others (one or
+is obvious enough. I have lost~£$50$, say, but others (one or
 more as the case may be) have gained it, and the increase
 of their happiness would exactly balance the diminution of
 mine. In the case of Insurance there is a slight complication,
@@ -15906,9 +15904,9 @@ out, it would be simply a lottery), but is made contingent
 upon some kind of loss, which it is intended as far as possible
 to balance. I insure myself on a railway journey, break my
 leg in an accident, and, having paid threepence for my
-ticket, receive say Â£$200$ compensation from the insurance
+ticket, receive say £$200$ compensation from the insurance
 company. The same remarks, however, apply here; the
-happiness I acquire by this Â£$200$ would only just balance the
+happiness I acquire by this £$200$ would only just balance the
 aggregate loss of the $16,000$ who have paid their threepences
 and received no return for them, were happiness always
 directly proportional to wealth.
@@ -16183,11 +16181,11 @@ These same proposals however have been employed in
 order to prove that gambling is necessarily disadvantageous,
 and this to both parties. Take, for instance, Bernoulli's supposition.
 It can be readily shown that if two persons each
-with a sum of Â£$50$ to start with choose to risk, say, Â£$10$ upon
+with a sum of £$50$ to start with choose to risk, say, £$10$ upon
 an even wager there will be a loss of happiness as a result;
-for the pleasure gained by the possessor of~Â£$60$ will not
+for the pleasure gained by the possessor of~£$60$ will not
 be equal to that which is lost by the man who leaves off
-with~Â£$40$.\footnote
+with~£$40$.\footnote
   {The formula expressive of this
   moral happiness is $c \log \Dfrac{x}{a}$; where $x$~stands
   for the physical fortune possessed
@@ -16210,15 +16208,15 @@ with~Â£$40$.\footnote
 \Sect{19.} This is the form of argument commonly adopted;
 but, as it stands, it does not seem conclusive. It may surely
 be replied that all which is thus proved is that \emph{inequality} is
-bad, on the ground that two fortunes of~Â£$50$ are better than
-one of~Â£$60$ and one of~Â£$40$. Conceive for instance that the
-original fortunes had been Â£$60$ and Â£$40$ respectively, the
+bad, on the ground that two fortunes of~£$50$ are better than
+one of~£$60$ and one of~£$40$. Conceive for instance that the
+original fortunes had been £$60$ and £$40$ respectively, the
 event may result in an increase of happiness; for this will
 certainly be the case if the richer man loses and the fortunes
 are thus equalized. This is quite true; and we are therefore
 obliged to show,---what can be very easily shown,---that if
 the other alternative had taken place and the two fortunes
-had been made still more unequal (viz.\ Â£$65$ and Â£$35$ respectively)
+had been made still more unequal (viz.\ £$65$ and £$35$ respectively)
 the happiness thus lost would more than balance
 what would have been gained by the equalization. And
 since these two suppositions are equally likely there will be a
@@ -16251,7 +16249,7 @@ the same kind as when the fortunes were equal.\footnote
   {This may be seen more clearly
   as follows. Suppose two pair of
   gamblers, each pair consisting of
-  men possessing Â£$50$ and Â£$30$ respectively.
+  men possessing £$50$ and £$30$ respectively.
   Now if we suppose the
   richer man to win in one case and
   the poorer in the other these two
@@ -16260,9 +16258,9 @@ the same kind as when the fortunes were equal.\footnote
   two alternatives and these will be
   equally frequent in the long run.
   It is obvious that we have had two
-  fortunes of~Â£$50$ and two of~Â£$30$ converted
-  into one of~Â£$20$, two of~Â£$40$,
-  and one of~Â£$60$. And this is clearly
+  fortunes of~£$50$ and two of~£$30$ converted
+  into one of~£$20$, two of~£$40$,
+  and one of~£$60$. And this is clearly
   an increase of inequality.}
 Taking a
 more general view the same conclusion underlies all our
@@ -16606,7 +16604,7 @@ reasonably be referred by every one who has the facts before
 him.
 
 \Sect{9.} A criticism somewhat resembling the above has
-been given by Mill (\Title{Logic,} Bk.~\No{III}.\ Chap.~\Chg{xviii}{\No{XVIII}}.\ Â§\;3) upon
+been given by Mill (\Title{Logic,} Bk.~\No{III}.\ Chap.~\Chg{xviii}{\No{XVIII}}.\ §\;3) upon
 \index{Mill, J.~S.}%
 the applicability of the theory of Probability to the credibility
 of witnesses. But he has added other reasons which
@@ -16823,7 +16821,7 @@ includes all the particular statements which the witness has
 made or will make.
 
 \Sect{3.} Now it has been abundantly shown in a former
-chapter (Ch.~\No{IX}.\ Â§Â§\;14--32) that the mere fact of a particular
+chapter (Ch.~\No{IX}.\ §§\;14--32) that the mere fact of a particular
 \PageSep{408}
 average having been assigned, is no reason for our
 being forced invariably to adhere to it, even in those cases
@@ -16967,7 +16965,7 @@ these cases may be represented numerically by a supposed
 diminution in the number of the balls which are thus distinguished
 from each other.
 
-\Sect{6.} Of the two plans mentioned in~Â§\;4 we will begin
+\Sect{6.} Of the two plans mentioned in~§\;4 we will begin
 with the latter, as it is the only methodical and scientific one
 which has been proposed. Suppose that there is a bag with
 $1000$ balls, only one of which is white, the rest being all
@@ -16998,7 +16996,7 @@ commonly be expressed, the latter fraction represents the
 chance that this particular statement of his is true.\footnote
   {The generalized algebraical form
   of this result is as follows. Let $p$~be
-  the \Chg{Ã  priori}{\Foreign{Ã ~priori}} probability of an
+  the \Chg{à priori}{\Foreign{à~priori}} probability of an
   event, and $x$~be the credibility of the
   witness. Then, if he asserts that
   the event happened, the probability
@@ -17019,7 +17017,7 @@ chance that this particular statement of his is true.\footnote
   notice that on making either of these
   expressions $= p$, we obtain in each
   case $x = \frac{1}{2}$. That is, a witness whose
-  veracity $= \frac{1}{2}$ leaves the \Chg{Ã  priori}{\Foreign{Ã ~priori}} probability
+  veracity $= \frac{1}{2}$ leaves the \Chg{à priori}{\Foreign{à~priori}} probability
   of an event (of this kind) unaffected.
 
   If, on the other hand, we make
@@ -17241,7 +17239,7 @@ of the two opposing inductions was better entitled to carry
 the day in the particular case before them. The reader
 will readily see that any general solution of the problem,
 when thus presented, is impossible. It is simply the now
-familiar case (Chap.~\No{IX}.\ Â§Â§\;14--32) of an individual which
+familiar case (Chap.~\No{IX}.\ §§\;14--32) of an individual which
 belongs equally to two distinct, or even, in respect of their
 characteristics, opposing classes. We cannot decide \Chg{offhand}{off-hand}
 to which of the two its characteristics most naturally and
@@ -17298,7 +17296,7 @@ case, must be laid aside. For let us refer again to the way
 in which the perplexity arises, and we shall readily see, as
 has just been remarked, that it is nothing more than a particular
 exemplification of a difficulty which has already been
-recognized as incapable of solution by any general \Foreign{Ã ~priori}
+recognized as incapable of solution by any general \Foreign{à~priori}
 method of treatment. All that we are supposed to have before
 us is a statement. On this occasion it is made by a witness
 who lies, say, once in ten times in the long run; that is, who
@@ -17328,7 +17326,7 @@ general character, position, sympathies, and so on.\footnote
   indeed been introduced into the
   mathematical treatment of the subject.
   The common algebraical solution
-  of the problem in~Â§\;5 (to begin
+  of the problem in~§\;5 (to begin
   with the simplest case) is of course
   as follows. Let $p$ be the antecedent
   probability of the event, and $t$~the
@@ -17347,7 +17345,7 @@ general character, position, sympathies, and so on.\footnote
   his trustworthiness in usual and
   unusual events. As a formal solution
   this certainly meets the objections
-  stated above in Â§Â§\;14 and~15.
+  stated above in §§\;14 and~15.
   The determination however of~$t'$
   would demand, as I have remarked,
   continually renewed appeal to experience.
@@ -17383,7 +17381,7 @@ probity and intelligence, the other a scientific naturalist,
 make a statement about some common event. We believe
 \PageSep{422}
 them both. Let them now each report some extraordinary
-\Foreign{lusus naturÃ¦} or monstrosity which they profess to have seen.
+\Foreign{lusus naturæ} or monstrosity which they profess to have seen.
 Most persons, we may presume, would receive the statement
 of the naturalist in this latter case almost as readily as in
 the former: whereas when the same story came from the
@@ -17438,7 +17436,7 @@ essentially inferior to those on other subjects. This is the
 case, for instance, with anything which excites his prejudices
 or passions or superstitions. In these cases it would seem
 unreasonable to attempt to estimate the credibility of the
-witness by calculating (as in~Â§\;6) how often his errors would
+witness by calculating (as in~§\;6) how often his errors would
 mislead us through his having been wrongly brought to an
 affirmation instead of adhering correctly to a negation. We
 should rather be disposed to put our correction on the witness'
@@ -17499,7 +17497,7 @@ he considered that he had actually seen it himself.\footnote
   In other words, it is difficult here to
   keep apart those different aspects of
   the question discussed in Chap.~\No{XIV}.\
-  Â§Â§\;28--33.}
+  §§\;28--33.}
 On the
 other hand, few men of any really scientific turn would
 readily accept a miracle even if it appeared to happen under
@@ -17537,7 +17535,7 @@ the witness' general veracity.\footnote
   stated, as it now seems to me, in decidedly
   too unqualified a manner.
   It must be remembered, however,
-  that (as was shown in~Â§\;7) this
+  that (as was shown in~§\;7) this
   plan is really the best theoretical
   one which can be adopted in certain
   cases.}
@@ -17579,7 +17577,7 @@ in determining how often they will be found to agree when
 they are both wrong, for clearly they must agree when they
 are both right. This enquiry turns of course upon the number
 of ways in which they can succeed in going wrong.
-Suppose first the case of a simple \emph{yes} or \emph{no} (as in~Â§\;6), and
+Suppose first the case of a simple \emph{yes} or \emph{no} (as in~§\;6), and
 take the same example, of a bag with $1000$ balls, in which
 one only is white. Proceeding as before, we should find that
 \PageSep{427}
@@ -17636,7 +17634,7 @@ the number they should (without collusion) happen to
 make the same misstatement. Whereas, in the last case,
 every combined misstatement necessarily led them both to
 the assertion that the event in question had happened, we
-should now find that only once in $999 Ã— 999$ times would
+should now find that only once in $999 × 999$ times would
 they both be led to assert that \emph{some given number} (say, as
 before,~$25$) had been drawn. The odds in favour of the
 \PageSep{428}
@@ -17664,7 +17662,7 @@ of single testimony.
 
 \Sect{21.} The impossibility of any adequate or even appropriate
 consideration of the credibility of miraculous stories
-by the rules of Probability has been already noticed in~Â§\;17.
+by the rules of Probability has been already noticed in~§\;17.
 But, since the grounds of this impossibility are often very
 insufficiently appreciated, a few pages may conveniently be
 added here with a view to enforcing this point. If it be
@@ -17784,7 +17782,7 @@ the discussion of any particular miracle or extraordinary
 story under one or other of these prepossessions, the question
 of its credibility will assume a very different aspect. It
 is sometimes overlooked that although a difference about
-\emph{facts} is one of the conditions of a \Foreign{bonÃ¢ fide} argument, a difference
+\emph{facts} is one of the conditions of a \Foreign{bonâ fide} argument, a difference
 which reaches to ultimate principles is fatal to all
 \PageSep{432}
 argument. The possibility of present conflict is banished in
@@ -17905,14 +17903,14 @@ which he should have a great deal to
 do. The best three references I can
 give the reader are the following.
 (1)~The article \Title{Moyenne} in the \Title{Dictionnaire
-des Sciences MÃ©dicales}, by
+des Sciences Médicales}, by
 Dr Bertillon. This is written somewhat
 \index{Bertillon}%
 from the Quetelet point of
 view. (2)~A paper by Fechner in
 \index{Fechner}%
 the \Title{Abhandlungen d.~Math.\ phys.\
-Classe d.~KÃ¶n.\ SÃ¤chs.\ Gesellschaft d.~Wiss}.\
+Classe d.~Kön.\ Sächs.\ Gesellschaft d.~Wiss}.\
 1878; pp.~1--76. This contains
 a very interesting discussion,
 especially for the statistician, of a
@@ -18035,11 +18033,11 @@ found to have doubled itself in $100$~years: can we talk of an
 `average' increase here of $1$~per cent.\ annually? The circumstances
 are not quite the same as in the former case, but
 the analogy is sufficiently close for our purpose. The answer
-is decidedly, No. If $100$~articles of any kind are sold for Â£$100$,
-we say that the average price is~Â£$1$. By this we mean that
+is decidedly, No. If $100$~articles of any kind are sold for £$100$,
+we say that the average price is~£$1$. By this we mean that
 the total amount is the same whether the entire lot are sold
-for Â£$100$, or whether we split the lot up into individuals
-and sell each of these for~Â£$1$. The average price here is a
+for £$100$, or whether we split the lot up into individuals
+and sell each of these for~£$1$. The average price here is a
 convenient fictitious substitute, which can be applied for
 each individual without altering the aggregate total. If
 therefore the question be, Will a supposed increase of $1$~p.~c.\
@@ -18458,7 +18456,7 @@ the plurality of actual results we get a single result which
 \PageSep{449}
 very possibly does not agree with any one of them. If I find
 the temperature in different parts of a room to be different,
-but say that the average temperature is~$61Â°$, there may perhaps
+but say that the average temperature is~$61°$, there may perhaps
 be but few parts of the room where this exact temperature
 is realized. And if I say that the average stature of
 a certain small group of men is $68$~inches, it is probable that
@@ -18600,7 +18598,7 @@ supposed to be some objective magnitude peculiarly representative
 of the average.
 
 Recur to the three principal classes, of things appropriate
-to Probability, which were sketched out in Ch.~\No{II}.\ Â§\;4. The
+to Probability, which were sketched out in Ch.~\No{II}.\ §\;4. The
 first of these comprised the results of games of chance. Toss
 a die ten times: the total number of pips on the upper
 side may vary from ten up to sixty. Suppose it to be
@@ -18716,7 +18714,7 @@ not then the equalizing process, it may be asked, which is
 observable on increasing the range of our observations,
 one which can be shown to follow from necessary laws of
 \PageSep{456}
-arithmetic, and one therefore which might be asserted \Chg{Ã  priori}{\Foreign{Ã ~priori}}?
+arithmetic, and one therefore which might be asserted \Chg{à priori}{\Foreign{à~priori}}?
 
 Whatever force there may be in the above objection arises
 principally from the limitations of the example selected, in
@@ -18993,7 +18991,7 @@ their height ``true to the nearest inch,'' and let it be known that the
 modulus here is $3.6$~inches. Then $dx = 1$ (inch); $h^{-1} = 3.6$ inches. Now
 $\sum \Dfrac{h}{\sqrt{\pi}} e^{-h^{2}x^{2}}\, dx = 1$; that is, the sum of all the consecutive possible values
 is equal to \emph{unity}. When therefore we want the sum, as here, to be $1460$, we
-must express the formula thus;---$y = \Dfrac{1460}{\sqrt{\pi} Ã— 3.6} e^{-(\frac{x}{3.6})^{2}}$, or $y = 228 e^{-(\frac{x}{3.6})^{2}}$.
+must express the formula thus;---$y = \Dfrac{1460}{\sqrt{\pi} × 3.6} e^{-(\frac{x}{3.6})^{2}}$, or $y = 228 e^{-(\frac{x}{3.6})^{2}}$.
 
 Here $x$~stands for the number of inches measured from the central or mean
 height, and $y$~stands for the number of men referred to that height in our
@@ -19039,7 +19037,7 @@ error taken at random shall lie within that same limit, viz.~$t$. Thus put
 $t = 1.5$, and we have the result~\Chg{$.96$}{$0.96$}; that is, only $4$~\Chg{\emph{per cent.}}{per cent.}\ of the errors will
 exceed `one and a half.' But when we ask, `one and a half' \emph{what?}\ the
 answer would not always be very ready. As usual, the main difficulty of
-the beginner is not to manipulate the formulÃ¦, but to be quite clear about
+the beginner is not to manipulate the formulæ, but to be quite clear about
 his units.
 
 It will be seen at once that this case differs from the preceding in that
@@ -19266,7 +19264,7 @@ we may possess as to the generating circumstances of the
 variable magnitudes.
 
 (1) There is, first, the case in which the conditions of
-the problem are determinable \Chg{Ã  priori}{\Foreign{Ã ~priori}}: that is, where we are
+the problem are determinable \Chg{à priori}{\Foreign{à~priori}}: that is, where we are
 able to say, prior to specific experience, how frequently each
 combination will occur in the long run. In this case the
 main or ultimate object for which we are supposing that the
@@ -19279,7 +19277,7 @@ it is necessary to discuss this case carefully, because its
 assumption is a necessary link in the reasoning in other
 cases.
 
-This comparatively \Chg{Ã  priori}{\Foreign{Ã ~priori}} knowledge may present itself
+This comparatively \Chg{à priori}{\Foreign{à~priori}} knowledge may present itself
 in two different degrees as respects its completeness. In the
 first place it may, so far as the circumstances in question
 are concerned, be absolutely complete. Consider the results
@@ -19319,7 +19317,7 @@ traced out.
 
 \Sect{7.} (2) The second division, to be next considered,
 corresponds for all logical purposes to the first. It comprises
-the cases in which though we have no Ã  priori knowledge
+the cases in which though we have no à priori knowledge
 as to the situation about which the values will tend to
 cluster in the long run, yet we have sufficient experience at
 hand to assign it with practical certainty. Consider for
@@ -19328,7 +19326,7 @@ instance the tables of human stature. These are often very
 extensive, including tens or hundreds of thousands. In such
 cases the mean or central value is determinable with just as
 \PageSep{472}
-great certainty as by any \Chg{Ã  priori}{\Foreign{Ã ~priori}} rule. That is, if we took
+great certainty as by any \Chg{à priori}{\Foreign{à~priori}} rule. That is, if we took
 another hundred thousand measurements from the same
 class of population, we should feel secure that the average
 would not be altered by any magnitude which our measuring
@@ -19385,12 +19383,12 @@ marksman.
 \Sect{9.} There are several ways of determining the modulus.
 \Pagelabel{473}%
 In the first of the cases discussed above, where our theoretical
-knowledge is complete, we are able to calculate it \Chg{Ã  priori}{\Foreign{Ã ~priori}}
+knowledge is complete, we are able to calculate it \Chg{à priori}{\Foreign{à~priori}}
 from our knowledge of the chances. We should
 naturally adopt this plan if we were tossing up a large
 handful of pence.
 
-The usual \Chg{Ã  posteriori}{\Foreign{Ã ~posteriori}} plan, when we have the measurements
+The usual \Chg{à posteriori}{\Foreign{à~posteriori}} plan, when we have the measurements
 of the magnitudes or observations before us, is this:---Take
 the mean square of the errors, and double this; the result
 gives the square of the modulus. Suppose, for instance,
@@ -19514,7 +19512,7 @@ repeated twice running. Such a repetition would be a piece
 of very bad luck no doubt, but being possible it must have
 its place in the set. Now the possible number of ways of
 combining $1024$ things two together, where the same thing
-may be repeated twice running, is $1024 Ã— 1024$ or $1048576$.
+may be repeated twice running, is $1024 × 1024$ or $1048576$.
 \PageSep{477}
 This then is the number in a complete cycle of the results
 taken two and two together.
@@ -19529,7 +19527,7 @@ on one occasion we shall have $F$~repeated twice; on $20$~occasions
 we shall have $F$~combined with~$E$ (for $F$~coming first
 we may have it followed by any one of the~$10$ at~$E$, or any
 one of these may be followed by~$F$); $E$~can be repeated in
-$10 Ã— 10$, or $100$~ways, and so on.
+$10 × 10$, or $100$~ways, and so on.
 
 Now for the position of each of these reduced observations,
 the relative frequency of whose component elements has thus
@@ -19773,7 +19771,7 @@ there is no doubt that the arithmetical average is not only
 the simplest and easiest to deal with, but is also the best in
 the above sense of the term. And since this Binomial Law,
 or something approximating to it, is of very wide prevalence,
-a strong \Chg{primÃ¢ facie}{\Foreign{primÃ¢ facie}} case is made out for the general employment
+a strong \Chg{primâ facie}{\Foreign{primâ facie}} case is made out for the general employment
 of the familiar average.
 
 \Sect{19.} The analysis of a few pages back carried the
@@ -19786,7 +19784,7 @@ steps, though demanding intricate reasoning for their proof,
 are nothing more than generalizations of processes which
 could be established by simple arithmetic.\footnote
   {The reader will find the proofs
-  of these and other similar formulÃ¦
+  of these and other similar formulæ
   in Galloway \Title{on Probability}, and in
 \index{Galloway}%
   Airy \Title{on Errors}.}
@@ -19807,7 +19805,7 @@ calculate the result of an average of any number, n. The
 actual result is extremely simple. If the modulus of the
 \index{Modulus}%
 single errors is~$c$, that of the average of $n$~of these will be
-$c Ã· \sqrt{n}$.
+$c ÷ \sqrt{n}$.
 
 (3) Finally we draw similar conclusions in reference to
 the \emph{sum or difference} of two averages of any numbers. Suppose,
@@ -19829,7 +19827,7 @@ c \sqrt{\frac{1}{m} + \frac{1}{n}}.
 
 \Sect{20.} So far, the problem under investigation has been
 of a direct kind. We have supposed that the ultimate mean
-value or central position has been given to us; either \Chg{Ã  priori}{\Foreign{Ã ~priori}}
+value or central position has been given to us; either \Chg{à priori}{\Foreign{à~priori}}
 (as in many games of chance), or from more immediate
 physical considerations (as in aiming at a mark), or from extensive
 statistics (as in tables of human stature). In all
@@ -19849,7 +19847,7 @@ and the error of mean square, which all vary in proportion,---diminishes
 \PageSep{486}
 inversely as the square root of the number of
 measurements or observations. (This follows from the second
-of the above formulÃ¦.) Accordingly the probable error of
+of the above formulæ.) Accordingly the probable error of
 the more extensive statistics here is one half that of the less
 extensive. Take another instance. Observation shows that
 ``the mean height of $2,315$ criminals differs from the mean
@@ -19859,7 +19857,7 @@ about two inches'' (v.\ Edgeworth, Methods of Statistics:
 little doubt that such a difference was significant, but it
 could give no numerical estimate of the significance. Appealing
 to science, we see that this is an illustration of the
-third of the above formulÃ¦. What we really want to know
+third of the above formulæ. What we really want to know
 is the odds against the averages of two large batches differing
 by an assigned amount: in this case by an amount equalling
 twenty-five times the modulus of the variable quantity.
@@ -19921,7 +19919,7 @@ square) by which the modulus is assigned, as we should
 \PageSep{488}
 adopt if we possessed full Information. Or rather we are
 confined to \emph{one} of the rules given on \PageRef{473}, viz.\ the second,
-for by supposition we have neither the \Chg{Ã  priori}{\Foreign{Ã ~priori}} knowledge
+for by supposition we have neither the \Chg{à priori}{\Foreign{à~priori}} knowledge
 which would be able to supply the first, nor a sufficient
 number of observations to justify the third. That is, we
 reckon the errors, measured from the average, and calculate
@@ -20643,7 +20641,7 @@ Donkin 123, 188, 283
 
 Duration of life 15, 441
 
-DÃ¼sing 259
+Düsing 259
 
 Ebbinghaus 199
 
@@ -20864,7 +20862,7 @@ Prantl 311
 
 Presumption, legal 329
 
-PrÃ©vost 348
+Prévost 348
 
 Probability
   definition of 165
@@ -21432,7 +21430,7 @@ subscribe to our email newsletter to hear about new eBooks.
   ['\\Preface', 1, 1, '', ''],
   ['\\Chapter', 0, 0, '', '', 1, 1, 'Chapter ', '. ', 1, 1, '', ''],
   ['\\ChapterNote', 0, 0, '', '', 1, 1, 'Chapter ', '. ', 1, 1, '', ''],
-  ['\\Sect', 1, 1, 'Â§ ', ''],
+  ['\\Sect', 1, 1, '§ ', ''],
   ['\\SectHead', 0, 0, '', '', 1, 1, '', ''],
   ['\\Input', 0, 0, '', '', 1, 0, '<Graphic>', ''],
   ['\\Pagelabel', 1, 0, '', ''],
